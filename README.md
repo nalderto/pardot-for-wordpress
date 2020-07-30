@@ -159,6 +159,9 @@ add_filter( 'pardot_https_regex', 'pardot_custom_filter_https_regex' );
 
 ## Changelog
 
+### 1.5.1
+* Removes traces of Pardot authentication, as Salesforce SSO is the only supported authentication method now
+
 ### 1.5.0
 * Feature - Added support for the WordPress Block Editor
 * Improvement - Added authentication status indicator to settings page
