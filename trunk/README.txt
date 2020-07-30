@@ -4,7 +4,7 @@ Donate link: http://pardot.com
 Tags: pardot, salesforce, marketing automation, forms, dynamic content, tracking, web tracking
 Requires at least: 5.2
 Tested up to: 5.4.2
-Stable tag: 1.5.0
+Stable tag: 1.5.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +19,7 @@ Say hello to marketing automation simplicity! With a single login, your self-hos
 
 1. Upload `pardot-for-wordpress/trunk` to your `/wp-content/plugins/` directory or go to Plugins > Add New in your WordPress Admin area and search for Pardot.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to Settings > Pardot Settings and authenticate with either Pardot or Salesforce SSO.
+3. Go to Settings > Pardot Settings and authenticate with Salesforce SSO.
 4. Select your campaign (for tracking code usage).
 
 = Authenticating with Salesforce SSO =
@@ -156,6 +156,9 @@ Filter the regular expression used to find URLs to be converted to https://go.pa
 10. Dynamic content block being edited
 
 == Changelog ==
+
+= 1.5.1 =
+* Removes traces of Pardot authentication, as Salesforce SSO is the only supported authentication method now
 
 = 1.5.0 =
 
@@ -348,6 +351,9 @@ Filter the regular expression used to find URLs to be converted to https://go.pa
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.5.1 =
+Salesforce SSO is the only supported authentication method now.  Make sure you have authenticated with Salesforce SSO.
 
 = 1.5.0 =
 
